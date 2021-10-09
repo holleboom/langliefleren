@@ -11,7 +11,7 @@ description: Creatieve workshops voor kinderen van 5 tot 9 jaar
 ## Wanneer?
 
 Elke woensdagmiddag van 14.00 tot 16.15 uur (alleen kinderen). De inloop met ouders/verzorgers is vanaf 13.45 uur.
-Zie het <a class="cp-inline" data-seller="langliefleren" data-checkout="woensdagmiddagclub">inschrijfformulier</a> voor alle data.
+Zie het [inschrijfformulier](https://checkoutpage.co/checkout/langliefleren/woensdagmiddagclub){:target="_blank"} voor alle data.
 
 ## Waar?
 
