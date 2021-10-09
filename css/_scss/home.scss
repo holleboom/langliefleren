@@ -101,7 +101,7 @@
 		position: relative;
 		display: inline-block;
 		width: 75vw;
-		margin-top: 15vh;
+		margin-top: 10vh;
 
 		@media only screen and (min-width: $breakpoint-med) {
 			width: 45vw;
@@ -109,7 +109,7 @@
 		}
 		svg {
 			width: 100%;
-			animation: spin infinite 120s linear;
+			animation: spin infinite 90s linear;
 		}
 
 		@keyframes spin {
