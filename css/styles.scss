@@ -32,8 +32,13 @@ body {
 		}
 		* { color: $blueDark;}
 		
+		.cp-button, .cp-inline {
+			cursor: pointer;
+			outline: none;
+			user-select: none;
+
+		}
 		.cp-button {
-			&:not(.cp-inline){
 				display:block;
 				text-align: center;
 				border: 2px solid $blueDark;
@@ -42,13 +47,11 @@ body {
 				padding: 10px 5px;
 				border-radius: 30px;
 				text-decoration: none;
-				cursor: pointer;
 
 				&:hover{
 					background: $blueDark;
 					color: $pink;
 				}
-			}
 		}
 
 	}
