@@ -14,28 +14,34 @@ body {
 
 	&.over {
 		background-color: $green;
+		nav li a {background-color: $green;}
 		* { color: $pink;}
-		nav li a {text-shadow: 2px 2px $green,
-		-2px -2px $green,
-		-2px 2px $green,
-		2px -2px $green;}
 
 	}
 	&.woensdagmiddagclub {
 		background-color: $pink;
+		nav li a {
+			background-color: $pink;
+		}
 		* { color: $blueDark;}
-		nav li a {text-shadow: 2px 2px $pink,
-		-2px -2px $pink,
-		-2px 2px $pink,
-		2px -2px $pink;}
+		
 
 	}
 	&.downloads {
 		background-color: $blue;
+		nav li a {
+			background-color: $blue;
+		}
 		* { color: $blueDark; }
 	}
 	&.contact {
-		background-color: $blue;
+		background-color: $pinkDark;
+		nav li a {
+			background-color: $pinkDark;
+		}
+		* {
+			color: $white;
+		}
 	}
 	
 }
@@ -61,10 +67,11 @@ nav {
 	}
 	li {
 		display: block;
-		margin: $gutter/2 $gutter/4;
+		margin: $gutter/2-4px calc(($gutter/4) - 8px);
 		a {
 			text-decoration: none;
 			border-bottom: none;
+			padding: 0 8px;
 		}
 		&.current a {
 			text-decoration: underline;
