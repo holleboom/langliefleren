@@ -6,6 +6,8 @@ description: Creatieve workshops voor kinderen van 5 tot 9 jaar
 
 **Lang lief leren biedt creatieve workshops aan kinderen van 5 tot 9 jaar!**
 
+<a href="#" class="cp-button" data-seller="langliefleren" data-checkout="woensdagmiddagclub">Aanmelden</a>
+
 ## Wanneer?
 
 Elke woensdagmiddag van 14.00 tot 16.15 uur (alleen kinderen).
@@ -39,6 +41,8 @@ Woensdagmiddagclub kost €15,00 per kind per keer.
 Een strippenkaart voor 3 woensdagmiddagclubs kost €42,50.
 Thee, water en diksap is inbegrepen. Zo ook een gezonde snack die samen met de kinderen wordt bereid zoals soep, een smoothie of een fruit- en groentesalade.
 
-Meld uw kind <a href="#" class="cp-button" data-seller="langliefleren" data-checkout="woensdagmiddagclub">hier</a> aan. De betaling verloopt via iDeal. Na betaling ontvangt u een bevestiging van uw inschrijving per e-mail.
+De betaling verloopt via iDeal. Na betaling ontvang je een bevestiging van je inschrijving per e-mail. Het is ook mogelijk om contant te betalen bij het brengen van je kind. Gebruik daarvoor de kortingcode CONTANT bij het afrekenen.
+
+<a href="#" class="cp-button" data-seller="langliefleren" data-checkout="woensdagmiddagclub">Aanmelden</a>
 
 <small>Let op: De workshop kan alleen doorgaan bij een minimale deelname van 4 kinderen.</small>
