@@ -20,9 +20,6 @@ body {
 
 	&.over {
 		background-color: $green;
-		.subpage.container {
-			box-shadow: 0 -50 $gutter $green;
-		}
 		nav li a {
 			outline-color: $pink;
 		}
@@ -31,9 +28,6 @@ body {
 	}
 	&.woensdagmiddagclub {
 		background-color: $pink;
-		.subpage.container {
-			box-shadow: 0 -50 $gutter $pink;
-		}
 		nav li a {
 			outline-color: $blueDark;
 		}
@@ -43,9 +37,6 @@ body {
 	}
 	&.downloads {
 		background-color: $blue;
-		.subpage.container {
-			box-shadow: 0 -50 $gutter $blue;
-		}
 		nav li a {
 			outline-color: $blueDark;
 		}
@@ -53,9 +44,6 @@ body {
 	}
 	&.contact {
 		background-color: $pinkDark;
-		.subpage.container {
-			box-shadow: 0 -50 $gutter $pinkDark;
-		}
 		nav li a {
 			outline-color: white;
 		}
@@ -73,7 +61,7 @@ a {
 
 nav {
 	position: relative;
-	z-index: 999;
+	z-index: 1;
 	top: $gutter/5;
 	padding: $gutter/5 0;
 
@@ -96,7 +84,7 @@ nav {
 		}
 		a:hover,
 		&.current a {
-			outline: 3px solid;
+			outline: 2px solid;
 		}
 	}
 	
@@ -108,6 +96,7 @@ nav {
 	}
 	@media only screen and (min-width: $breakpoint-med) {
 		position: sticky;
+		text-align: right !important;
 		
 		li {
 			display: inline-block;
