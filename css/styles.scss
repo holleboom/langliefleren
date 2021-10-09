@@ -25,7 +25,7 @@ body {
 		}
 		* { color: $pink;}
 	}
-	&.woensdagmiddagclub {
+	&[class^='woensdagmiddagclub'] {
 		background-color: $pink;
 		nav li a {
 			outline-color: $blueDark;
