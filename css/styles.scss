@@ -20,14 +20,16 @@ body {
 
 	&.over {
 		background-color: $green;
-		nav li a {background-color: $green;}
+		nav li a {
+			background-color: transparentize($green,.5);
+		}
 		* { color: $pink;}
 
 	}
 	&.woensdagmiddagclub {
 		background-color: $pink;
 		nav li a {
-			background-color: $pink;
+			background-color: transparentize($pink,.5);
 		}
 		* { color: $blueDark;}
 		
@@ -36,14 +38,14 @@ body {
 	&.downloads {
 		background-color: $blue;
 		nav li a {
-			background-color: $blue;
+			background-color: transparentize($blue,.5);
 		}
 		* { color: $blueDark; }
 	}
 	&.contact {
 		background-color: $pinkDark;
 		nav li a {
-			background-color: $pinkDark;
+			background-color: transparentize($pinkDark,.5);
 		}
 		* {
 			color: white;
@@ -94,7 +96,6 @@ nav {
 	}
 	@media only screen and (min-width: $breakpoint-med) {
 		position: sticky;
-		// text-align: right !important;
 		
 		li {
 			display: inline-block;
