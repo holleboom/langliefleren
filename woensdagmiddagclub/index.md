@@ -6,17 +6,17 @@ description: Creatieve workshops voor kinderen van 5 tot 9 jaar
 
 **Lang lief leren biedt creatieve workshops aan kinderen van 5 tot 9 jaar!**
 
-### Wanneer?
+## Wanneer?
 
 Elke woensdagmiddag van 14.00 tot 16.15 uur (alleen kinderen).
 De inloop met ouders/verzorgers is vanaf 13.45 uur.
 Kijk voor alle data bij [aanmelden](/aanmelden).
 
-### Waar?
+## Waar?
 
 Bij _Lang lief leren_ aan huis: [Statenweg 168A in Blijdorp, Rotterdam](https://goo.gl/maps/N77RpQ64ERBJf1ZH7).
 
-### Wat doen we?
+## Wat doen we?
 
 We verdiepen ons aan de hand van een prentenboek of thema in een onderwerp waar we op een creatieve manier mee aan de slag gaan. We laten ons verrassen door onze gedachten door middel van denksleutels en geven ruimte aan het experiment door te knutselen met verschillende materialen en technieken.
 Houd [Instagram](https://www.instagram.com/langliefleren/) in de gaten voor alle thema’s van de workshops!
@@ -33,7 +33,7 @@ Een vast onderdeel van de Woensdagmiddagclub is het bereiden van een gezonde sna
 
 Naast voorlezen, knutselen en koken, is er ook ruimte voor beweging. Dit doen we in de vorm van kinderyoga op muziek waarin de kinderen lekker mee kunnen dansen en zingen met de vrolijke liedjes van onder andere [Het Dansende Dierenbos](https://dansendedierenbos.nl/).
 
-### Kosten en aanmelden
+## Kosten en aanmelden
 
 Woensdagmiddagclub kost €15,00 per kind, per woensdagmiddag.
 Een strippenkaart voor 3x woensdagmiddagclubs kost €42,50.

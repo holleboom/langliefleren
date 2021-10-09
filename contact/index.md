@@ -1,8 +1,7 @@
 ---
 layout: subpage
-title: contact
+title: Contact
+description: Volg Lang lief leren op Instagram of stuur ons een mail.
 ---
 
-
-Volg ons op <a href="https://www.instagram.com/knutselkluprotterdam/" target="_blank">instagram</a> en <a href="https://www.facebook.com/knutselkluprotterdam/" target="_blank">facebook</a> of stuur ons een mail.
-
+Volg _Lang lief leren_ op [Instagram](https://www.instagram.com/langliefleren/) of stuur een [mail](mailto:info@langliefleren.nl).
