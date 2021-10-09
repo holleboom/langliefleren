@@ -4,7 +4,7 @@ title: woensdagmiddagclub
 description: Creatieve workshops voor kinderen van 5 tot 9 jaar
 ---
 
-**Lang lief leren biedt creatieve workshops aan kinderen van 5 tot 9 jaar: de Woensdagmiddagclub!**
+**Lang lief leren organiseert wekelijks een creatieve workshop voor kinderen van 6 tot 10 jaar: de Woensdagmiddagclub!**
 
 <a class="cp-button" data-seller="langliefleren" data-checkout="woensdagmiddagclub">Direct inschrijven</a>
 
