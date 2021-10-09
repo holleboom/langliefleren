@@ -6,12 +6,12 @@ description: Creatieve workshops voor kinderen van 5 tot 9 jaar
 
 **Lang lief leren biedt creatieve workshops aan kinderen van 5 tot 9 jaar: de Woensdagmiddagclub!**
 
-<a href="#" class="cp-button" data-seller="langliefleren" data-checkout="woensdagmiddagclub">Direct inschrijven</a>
+<a class="cp-button" data-seller="langliefleren" data-checkout="woensdagmiddagclub">Direct inschrijven</a>
 
 ## Wanneer?
 
 Elke woensdagmiddag van 14.00 tot 16.15 uur (alleen kinderen). De inloop met ouders/verzorgers is vanaf 13.45 uur.
-Zie het <a href="#" class="cp-button cp-inline" data-seller="langliefleren" data-checkout="woensdagmiddagclub">inschrijfformulier</a> voor alle data.
+Zie het <a class="cp-button cp-inline" data-seller="langliefleren" data-checkout="woensdagmiddagclub">inschrijfformulier</a> voor alle data.
 
 ## Waar?
 
@@ -42,6 +42,6 @@ Thee, water en diksap is inbegrepen. Zo ook een gezonde snack die samen met de k
 
 De betaling verloopt via iDeal. Na betaling ontvang je een bevestiging van je inschrijving per e-mail. Het is ook mogelijk om contant te betalen bij het brengen van je kind. Gebruik daarvoor de kortingscode <b>CONTANT</b> bij het afrekenen.
 
-<a href="#" class="cp-button" data-seller="langliefleren" data-checkout="woensdagmiddagclub">Direct inschrijven</a>
+<a class="cp-button" data-seller="langliefleren" data-checkout="woensdagmiddagclub">Direct inschrijven</a>
 
 <small>Let op: De workshop kan alleen doorgaan bij een minimale deelname van 4 kinderen.</small>
