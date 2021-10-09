@@ -10,7 +10,7 @@ description: Creatieve workshops voor kinderen van 5 tot 9 jaar
 
 Elke woensdagmiddag van 14.00 tot 16.15 uur (alleen kinderen).
 De inloop met ouders/verzorgers is vanaf 13.45 uur.
-Kijk voor alle data bij het [aanmelden](#){:target="_blank"}.
+Kijk voor alle data bij [aanmelden](#kosten-en-aanmelden).
 
 ## Waar?
 
@@ -39,9 +39,6 @@ Woensdagmiddagclub kost €15,00 per kind per keer.
 Een strippenkaart voor 3 woensdagmiddagclubs kost €42,50.
 Thee, water en diksap is inbegrepen. Zo ook een gezonde snack die samen met de kinderen wordt bereid zoals soep, een smoothie of een fruit- en groentesalade.
 
-Meld uw kind <a class="cp-button" data-seller="langliefleren" data-checkout="woensdagmiddagclub">hier</a> aan. De betaling verloopt via iDeal. Na betaling ontvangt u een bevestiging van uw inschrijving per e-mail.
+Meld uw kind <a href="#" class="cp-button" data-seller="langliefleren" data-checkout="woensdagmiddagclub">hier</a> aan. De betaling verloopt via iDeal. Na betaling ontvangt u een bevestiging van uw inschrijving per e-mail.
 
-
-
-
-Let op: De workshop kan alleen doorgaan bij een minimale deelname van 4 kinderen.
+<small>Let op: De workshop kan alleen doorgaan bij een minimale deelname van 4 kinderen.</small>
