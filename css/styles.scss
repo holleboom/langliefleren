@@ -11,7 +11,6 @@
 body {
 	background-color: $yellow;
 	nav li a {
-		background-color: $yellow;
 		outline-color: $pinkDark;
 	}
 	* {
@@ -21,8 +20,10 @@ body {
 
 	&.over {
 		background-color: $green;
+		.subpage.container {
+			box-shadow: 0 -50 $gutter $green;
+		}
 		nav li a {
-			background-color: $green;
 			outline-color: $pink;
 		}
 		* { color: $pink;}
@@ -30,8 +31,10 @@ body {
 	}
 	&.woensdagmiddagclub {
 		background-color: $pink;
+		.subpage.container {
+			box-shadow: 0 -50 $gutter $pink;
+		}
 		nav li a {
-			background-color: $pink;
 			outline-color: $blueDark;
 		}
 		* { color: $blueDark;}
@@ -40,16 +43,20 @@ body {
 	}
 	&.downloads {
 		background-color: $blue;
+		.subpage.container {
+			box-shadow: 0 -50 $gutter $blue;
+		}
 		nav li a {
-			background-color: $blue;
 			outline-color: $blueDark;
 		}
 		* { color: $blueDark; }
 	}
 	&.contact {
 		background-color: $pinkDark;
+		.subpage.container {
+			box-shadow: 0 -50 $gutter $pinkDark;
+		}
 		nav li a {
-			background-color: $pinkDark;
 			outline-color: white;
 		}
 		* {
@@ -84,8 +91,8 @@ nav {
 		a {
 			text-decoration: none;
 			border-bottom: none;
-			padding: 0 8px;
-			border-radius: 16px;
+			padding: 0 10px;
+			border-radius: 20px;
 		}
 		a:hover,
 		&.current a {
