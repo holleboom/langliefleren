@@ -1,0 +1,20 @@
+---
+layout: home
+---
+
+<section class="subpage container">
+	<header>
+		<h1 class="center"><span>{{ page.title }}</span></h1>
+	</header>
+	<div class="row">
+		<div class="col-6 offset"></div>
+		<article class="col-6 text">
+			{{ content }}
+		</article>
+	</div>
+	<div class="row">
+		<figure class="aside col-6 col-12-sm">
+			<img src="{{ site.baseurl }}/assets/{{ page.url | remove: '/' }}.jpg" />
+		</figure>
+	</div>
+</section>

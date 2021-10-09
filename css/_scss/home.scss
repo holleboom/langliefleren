@@ -1,0 +1,125 @@
+.figuresContainer {
+	z-index: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	overflow: hidden;
+	.figures {
+		transform: scale(1.25);
+		.row {
+			[class^="col"] {
+				height: 50vh;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				margin-top: 0;
+				margin-bottom: 0;
+
+				&:hover {
+					svg {
+						animation-direction: reverse;
+					}
+				}
+
+			}
+
+			@keyframes spin {
+				0% {
+					transform: rotate(0);
+				}
+				50% {
+					transform: rotate(180deg);
+				}
+				100% {
+					transform: rotate(360deg);
+				}
+			}
+
+
+			svg {
+				position: relative;
+				display: inline-block;
+				width: 75%;
+				animation: spin infinite 120s linear;
+
+				&.a, &.c, &.e {
+					animation-direction: reverse;
+				}
+
+				transition: all 200ms ease-out;
+			}
+
+			@media only screen and (min-width: $breakpoint-large) {
+				svg {
+					&.a {
+						left: 2.5vw;
+					}
+					&.b {
+						top: 0;
+						left: -5vw;
+					}
+					&.c {
+						top: -5vh;
+						left: -5vw;
+					}
+					&.d {
+						left: 7.5vw;
+						top: 10vh;
+					}
+					&.e {
+						left: 5vw;
+						top: 10vh;
+					}
+					&.f {
+						left: 7.5vw;
+						bottom: 5vh;
+					}
+				}
+			}
+
+			@media only screen and (max-width: $breakpoint-large) {
+				svg {
+					width: 175%;
+					&.a, &.c {
+						margin-top: 20vh;
+					}
+					&.d, &.f {
+						margin-bottom: 20vh;
+					}
+					&.b {
+						margin-top: -10vh;
+					}
+					&.e {
+						margin-top: 10vh;
+					}
+				}
+			}
+		}
+	}
+	
+}
+
+.logoContainer {
+	position: fixed;
+	top: 0;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+	.logo {
+		position: relative;
+		display: inline-block;
+		width: 75vw;
+		margin-top: 15vh;
+
+		@media only screen and (min-width: $breakpoint-med) {
+			width: 35vw;
+			margin-top: 0;
+		}
+		svg {
+			width: 100%;
+		}
+	}
+}

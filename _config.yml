@@ -1,0 +1,7 @@
+auto: true
+permalink: /:title/
+baseurl: /knutselklup
+sass:
+    style: compressed
+    sass_dir: css/_scss
+    

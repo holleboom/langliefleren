@@ -1,0 +1,64 @@
+.subpage {
+		@media only screen and (max-width: $breakpoint-med) {
+			padding-bottom: $gutter;
+		}
+	header {
+		margin-top: 5vh;
+			@media only screen and (min-width: $breakpoint-med) {
+				margin-top: 10vh;
+			}
+		z-index: 1;
+		position: relative;
+		h1 {
+			font-size: 2.5em;
+			@media only screen and (min-width: $breakpoint-med) {
+				font-size: 4em;
+			}
+			font-weight: $font-weight-heavy;
+			span {
+				border-bottom: 0.075em solid $black;
+				padding-bottom: 0;
+				line-height: 1;
+			}
+		}
+	}
+		[class^="col"].offset {
+		margin-left: 0;
+		margin-right: 0;
+		min-height: inherit;
+	}
+
+	.text {
+		@media only screen and (min-width: $breakpoint-med) {
+			padding-left: $gutter/2;
+		}
+		p {
+			margin-top: 0;
+		}
+	}
+
+	figure.aside {
+		z-index: 0;
+		margin: 0;
+		display: block;
+		
+		@media only screen and (max-width: $breakpoint-med) {
+			width: 100%;
+		}
+		@media only screen and (min-width: $breakpoint-med) {
+			position: fixed;
+			width: 33% !important;
+			top: 0;
+			left: $gutter*1.5;
+
+			// position: sticky;
+			// bottom: 0;
+			// left: $gutter*2;
+		}
+		img {
+			display: block;
+			width: 100%;
+			margin: 0;
+		}
+	}
+}

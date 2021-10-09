@@ -1,0 +1,76 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+
+@import "variables";
+@import "simple-grid";
+
+@import "home.scss";
+@import "subPage";
+
+body {
+
+	&.over {
+		background-color: $green;
+	}
+	&.workshops {
+		background-color: $pink;
+	}
+	&.contact {
+		background-color: $blue;
+	}
+	&.kinderfeestjes {
+		background-color: $yellow;
+	}
+}
+
+a {
+	text-decoration: none;
+	border-bottom: 2px solid $black;
+}
+
+nav {
+	position: relative;
+	z-index: 1;
+	top: $gutter/5;
+	padding: $gutter/5 0;
+
+	font-weight: $font-weight-heavy;
+	font-size: 1.25em;
+	text-transform: lowercase;
+
+	ul {
+		margin: 0;
+		padding: 0;
+	}
+	li {
+		display: block;
+		margin: $gutter/2 $gutter/4;
+		a {
+			text-decoration: none;
+			border-bottom: none;
+		}
+		&.current a {
+			border-bottom: 2px solid $black;
+		}
+	}
+	
+
+	@media only screen and (min-width: $breakpoint-med) {
+		li {
+			display: inline-block;
+		}
+	}
+	@media only screen and (min-width: $breakpoint-med) {
+		position: sticky;
+		text-align: right !important;
+		
+		li {
+			display: inline-block;
+		}
+	}
+
+
+
+
+}

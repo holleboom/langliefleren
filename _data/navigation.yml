@@ -1,0 +1,16 @@
+# Belongs at: /_data/navigation.yml
+
+- title: Home
+  url: /
+
+- title: Over
+  url: /over/
+
+- title: Workshops
+  url: /workshops/
+
+- title: Kinderfeestjes
+  url: /kinderfeestjes/
+
+- title: Contact
+  url: /contact/
