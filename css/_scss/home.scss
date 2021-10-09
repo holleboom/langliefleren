@@ -23,24 +23,13 @@
 
 			}
 
-			@keyframes spin {
-				0% {
-					transform: rotate(0);
-				}
-				50% {
-					transform: rotate(180deg);
-				}
-				100% {
-					transform: rotate(360deg);
-				}
-			}
+			
 
 
 			svg {
 				position: relative;
 				display: inline-block;
 				width: 75%;
-				animation: spin infinite 120s linear;
 
 				&.a, &.c, &.e {
 					animation-direction: reverse;
@@ -120,6 +109,21 @@
 		}
 		svg {
 			width: 100%;
+			animation: spin infinite 120s linear;
+		}
+
+		@keyframes spin {
+			0% {
+				transform: rotate(0);
+			}
+
+			50% {
+				transform: rotate(180deg);
+			}
+
+			100% {
+				transform: rotate(360deg);
+			}
 		}
 	}
 }
