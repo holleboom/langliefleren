@@ -40,7 +40,7 @@ Woensdagmiddagclub kost €15,00 per kind per keer.
 Een strippenkaart voor 3 woensdagmiddagclubs kost €42,50.
 Thee, water en diksap is inbegrepen. Zo ook een gezonde snack die samen met de kinderen wordt bereid zoals soep, een smoothie of een fruit- en groentesalade.
 
-De betaling verloopt via iDeal. Na betaling ontvang je een bevestiging van je inschrijving per e-mail. Het is ook mogelijk om contant te betalen bij het brengen van je kind. Gebruik daarvoor de kortingcode CONTANT bij het afrekenen.
+De betaling verloopt via iDeal. Na betaling ontvang je een bevestiging van je inschrijving per e-mail. Het is ook mogelijk om contant te betalen bij het brengen van je kind. Gebruik daarvoor de kortingscode <b>CONTANT</b> bij het afrekenen.
 
 <a href="#" class="cp-button" data-seller="langliefleren" data-checkout="woensdagmiddagclub">Inschrijven</a>
 

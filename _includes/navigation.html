@@ -1,28 +1,9 @@
-
-<!-- This finds the current page so it can be highlighted. -->
-
-{% for entry in site.data.navigation %}
-{% capture fullurl %}{{ site.baseurl }}{{ entry.url }}{% endcapture %}
-    {% if fullurl == page.url %}
-        {% assign current_page = fullurl %}
-        {% break %}
-    {% elsif page.url contains fullurl %}
-        {% assign current_page = fullurl %}
-    {% endif %}
-{% endfor %}
-
-
 <nav class="container center">
     <ul>
     {% for entry in site.data.navigation %}
-        {% if entry.url == current_page %}
-            {% assign current = ' class="current"' %}
-        {% else %}
-            {% assign current = null %}
-        {% endif %}
         {% assign sublinks = entry.sublinks %}
         {% if sublinks %}
-        <li {{ current }}>
+		<li class="{% if item.url == page.url %}active{% endif %}">
             <a href="{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a>
             <ul>
                 {% for sublink in sublinks %}
@@ -31,7 +12,8 @@
             </ul>
         </li>
         {% else %}
-        <li {{ current }}><a href="{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a></li>
+		<li class="{% if item.url == page.url %}active{% endif %}">
+			<a href="{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a></li>
         {% endif %}
     {% endfor %}
     </ul>
