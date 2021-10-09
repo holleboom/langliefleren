@@ -1,6 +1,6 @@
 auto: true
 permalink: /:title/
-baseurl: /langliefleren
+baseurl: /langliefleren/
 sass:
   style: compressed
   sass_dir: css/_scss

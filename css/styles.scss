@@ -30,7 +30,7 @@ body {
 
 a {
 	text-decoration: underline;
-	text-underline-offset: 3px;
+	text-underline-offset: 1px;
 }
 
 nav {
@@ -56,7 +56,7 @@ nav {
 		}
 		&.current a {
 			text-decoration: underline;
-			text-underline-offset: 3px;
+			text-underline-offset: 1px;
 		}
 	}
 	
