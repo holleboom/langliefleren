@@ -27,7 +27,7 @@ body {
 
 	}
 	&.woensdagmiddagclub {
-		background-color: $pink;
+		background-color: $lila;
 		nav li a {
 			outline-color: $blueDark;
 		}
@@ -61,7 +61,7 @@ a {
 
 nav {
 	position: relative;
-	z-index: 1;
+	z-index: 999;
 	top: $gutter/5;
 	padding: $gutter/5 0;
 
