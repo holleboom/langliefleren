@@ -33,17 +33,19 @@ body {
 		* { color: $blueDark;}
 		
 		.cp-button {
-			display:block;
-			text-align: center;
-			border: 2px solid $blueDark;
-			font-weight: $font-weight-heavy;
-			font-size: 1.15em;
-			padding: 10px 5px;
-			border-radius: 30px;
-			text-decoration: none;
-			&:hover{
-				background: $blueDark;
-				color: $pink;
+			&:not(.cp-inline){
+				display:block;
+				text-align: center;
+				border: 2px solid $blueDark;
+				font-weight: $font-weight-heavy;
+				font-size: 1.15em;
+				padding: 10px 5px;
+				border-radius: 30px;
+				text-decoration: none;
+				&:hover{
+					background: $blueDark;
+					color: $pink;
+				}
 			}
 		}
 
