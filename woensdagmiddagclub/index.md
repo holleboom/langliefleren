@@ -41,4 +41,12 @@ Thee, water en diksap is inbegrepen. Zo ook een gezonde snack die samen met de k
 
 Meld uw kind [hier](#){:target="_blank"} aan. De betaling verloopt via iDeal. Na betaling ontvangt u een bevestiging van uw inschrijving per e-mail.
 
+<button
+  class="cp-button"
+  data-seller="langliefleren"
+  data-checkout="woensdagmiddagclub"
+>
+  Buy now
+</button>
+
 Let op: De workshop kan alleen doorgaan bij een minimale deelname van 4 kinderen.
