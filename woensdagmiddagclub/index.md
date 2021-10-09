@@ -36,7 +36,7 @@ Naast voorlezen, knutselen en koken, is er ook ruimte voor beweging. Dit doen we
 ### Kosten en aanmelden
 
 Woensdagmiddagclub kost €15,00 per kind, per woensdagmiddag.
-Een strippenkaart voor 3x club is 42,50 euro.
+Een strippenkaart voor 3x woensdagmiddagclubs kost €42,50.
 Thee, water en diksap is inbegrepen. Zo ook een gezonde snack die samen met de kinderen wordt bereid zoals soep, een smoothie of een fruit- en groentesalade.
 
 Meld uw kind [hier] aan. De betaling verloopt via iDeal. Na betaling ontvangt u een bevestiging van uw inschrijving per e-mail.
