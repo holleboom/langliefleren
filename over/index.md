@@ -3,9 +3,9 @@ layout: subpage
 title: over
 ---
 
-Wij zijn Natasja en Lisette, bedenkers van Knutsel Klup en ontwerpers van magazines en boeken. Wij experimenteren met letters,
-kleur en vormen. Kinderen zijn hier het allerbeste in. Zelfs Pablo Picasso wist het: 'Ik had vier jaar nodig om te schilderen
-als Rafaël, maar een heel leven om te schilderen als een kind.' Knutsel Klup geeft ruimte aan het experiment. We laten ons
-inspireren door de stad en gaan op onderzoek met bijzondere materialen en technieken. In onze themaworkshops nemen we kleine
-knutselaars van 5 tot 10 jaar mee op ontdekkingsreis naar een wereld vol van fantasie. Alles is mogelijk, waardoor het resultaat
-iedere keer verrassend is.
+Lang lief leren is bedacht door Natasja de Vries (32) met als doel om zoveel mogelijk ouders en leerkrachten te [inspireren](https://www.instagram.com/langliefleren/) met handige tips en materialen voor in het basisonderwijs.
+
+Natasja is drie dagen per week werkzaam als leerkracht op een montessoribasisschool in Rotterdam. Daarnaast is zij moeder van een vrolijke dreumes.
+Voor Natasja het onderwijs in ging, werkte zij als vormgever en art director voor het Algemeen Dagblad. Ook organiseerde zij eerder knutselworkshops voor kinderen op verschillende locaties in Rotterdam.
+
+Sinds 2021 organiseert Lang lief leren de [Woensdagmiddagclub](/woensdagmiddagclub) waarin Natasja creatieve workshops organiseert voor kinderen van 6 tot 9 jaar. In de workshops verkennen kinderen op een speelse manier een onderwerp door middel van creatief denken en experimenteren.

@@ -9,12 +9,14 @@
 @import "subPage";
 
 body {
-
+		background-color: $yellow;
 	&.over {
 		background-color: $green;
+		color: $pink;
 	}
-	&.workshops {
+	&.woensdag {
 		background-color: $pink;
+		color: $blueDark;
 	}
 	&.contact {
 		background-color: $blue;
