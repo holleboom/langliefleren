@@ -1,6 +1,6 @@
 ---
 layout: subpage
-title: Woensdagmiddagclub
+title: woensdagmiddagclub
 description: Creatieve workshops voor kinderen van 5 tot 9 jaar
 ---
 

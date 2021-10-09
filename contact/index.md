@@ -1,6 +1,6 @@
 ---
 layout: subpage
-title: Contact
+title: contact
 description: Volg Lang lief leren op Instagram of stuur ons een mail.
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: subpage
-title: Over Lang lief leren
+title: over
 ---
 
 _Lang lief leren_ is bedacht door Natasja de Vries (1989) met als doel om zoveel mogelijk ouders en leerkrachten te [inspireren](https://www.instagram.com/langliefleren/) met handige tips en materialen voor in het basisonderwijs.
