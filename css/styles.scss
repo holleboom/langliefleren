@@ -35,10 +35,14 @@ body {
 		.cp-button {
 			display:block;
 			text-align: center;
+			border: 2px solid $blueDark;
 			font-weight: $font-weight-heavy;
 			font-size: 1.5em;
 			padding: 10px 5px;
 			border-radius: 20px;
+			&:hover {
+				
+			}
 		}
 
 	}
