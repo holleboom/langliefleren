@@ -10,9 +10,6 @@
 
 body {
 	background-color: $yellow;
-	.text a:hover {
-		color: $yellow;
-	}
 	nav li a {
 		outline-color: $pinkDark;
 	}
@@ -27,16 +24,9 @@ body {
 			outline-color: $pink;
 		}
 		* { color: $pink;}
-		.text a:hover {
-			color: $green;
-		}
-
 	}
 	&.woensdagmiddagclub {
 		background-color: $pink;
-		.text a:hover {
-			color: $pink;
-		}
 		nav li a {
 			outline-color: $blueDark;
 		}
@@ -46,9 +36,6 @@ body {
 	}
 	&.downloads {
 		background-color: $blue;
-		.text a:hover {
-			color: $blue;
-		}
 		nav li a {
 			outline-color: $blueDark;
 		}
@@ -56,9 +43,6 @@ body {
 	}
 	&.contact {
 		background-color: $pinkDark;
-		.text a:hover {
-			color: $pinkDark;
-		}
 		nav li a {
 			outline-color: white;
 		}
