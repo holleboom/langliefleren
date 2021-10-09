@@ -9,23 +9,37 @@
 @import "subPage";
 
 body {
-		background-color: $yellow;
+	background-color: $yellow;
+	nav li a {
+		text-
+	}
+
 	&.over {
 		background-color: $green;
 		* { color: $pink;}
-		a { border-color: $pink;}
+		text-shadow: 2px 2px $green,
+		-2px -2px $green,
+		-2px 2px $green,
+		2px -2px $green;
+
 	}
 	&.woensdag {
 		background-color: $pink;
 		* { color: $blueDark;}
-		a { border-color: $blueDark;}
+		text-shadow: 2px 2px $pink,
+		-2px -2px $pink,
+		-2px 2px $pink,
+		2px -2px $pink;
+
+	}
+	&.downloads {
+		background-color: $blue;
+		* { color: $blueDark; }
 	}
 	&.contact {
 		background-color: $blue;
 	}
-	&.kinderfeestjes {
-		background-color: $yellow;
-	}
+	
 }
 
 a {
