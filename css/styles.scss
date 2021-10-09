@@ -10,6 +10,12 @@
 
 body {
 	background-color: $yellow;
+	nav li a {
+		background-color: $yellow;
+	}
+		* {
+			color: $pinkDark;
+		}
 	
 
 	&.over {
