@@ -1,9 +1,9 @@
 <nav class="container center">
     <ul>
+		{{page.url}}
     {% for entry in site.data.navigation %}
         {% assign sublinks = entry.sublinks %}
         {% if sublinks %}
-		{{page.url}}
 		<li class="{% if {{ site.baseurl }}{{ entry.url }} == page.url %}current{% endif %}">
             <a href="{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a>
             <ul>
