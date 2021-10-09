@@ -1,6 +1,6 @@
 ---
 layout: subpage
-title: Downloads
+title: downloads
 description: Gratis handige downloads voor thuis en in de klas.
 ---
 

@@ -4,4 +4,4 @@ title: contact
 description: Volg Lang lief leren op Instagram of stuur ons een mail.
 ---
 
-Volg _Lang lief leren_ op [Instagram](https://www.instagram.com/langliefleren/) of stuur een [mail](mailto:info@langliefleren.nl).
+Volg _Lang lief leren_ op [Instagram](https://www.instagram.com/langliefleren/){:target="_blank"} of stuur een [mail](mailto:info@langliefleren.nl?subject=Contact%20via%20website).
