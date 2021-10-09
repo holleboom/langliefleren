@@ -1,7 +1,8 @@
 auto: true
 permalink: /:title/
-baseurl: /knutselklup
+baseurl: /langliefleren
 sass:
-    style: compressed
-    sass_dir: css/_scss
-    
+  style: compressed
+  sass_dir: css/_scss
+plugins:
+  - jekyll-seo-tag
