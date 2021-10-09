@@ -29,8 +29,8 @@ body {
 }
 
 a {
-	text-decoration: none;
-	border-bottom: 2px solid $black;
+	text-decoration: underline;
+	text-underline-offset: 3px;
 }
 
 nav {
@@ -55,7 +55,8 @@ nav {
 			border-bottom: none;
 		}
 		&.current a {
-			border-bottom: 2px solid $black;
+			text-decoration: underline;
+			text-underline-offset: 3px;
 		}
 	}
 	

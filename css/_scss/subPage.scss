@@ -17,8 +17,7 @@
 			font-weight: $font-weight-heavy;
 			span {
 				text-decoration: underline;
-				padding-bottom: 0;
-				line-height: 1;
+				text-underline-offset: 3px;
 			}
 		}
 	}
