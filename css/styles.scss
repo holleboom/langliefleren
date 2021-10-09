@@ -12,11 +12,11 @@ body {
 		background-color: $yellow;
 	&.over {
 		background-color: $green;
-		color: $pink;
+		* { color: $pink;}
 	}
 	&.woensdag {
 		background-color: $pink;
-		color: $blueDark;
+		* { color: $blueDark;}
 	}
 	&.contact {
 		background-color: $blue;
