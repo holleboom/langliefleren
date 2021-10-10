@@ -11,5 +11,11 @@ defaults:
       path: ""
     values:
       image: /assets/main_og.png
-      seo:
-        name: {{page.title}} - langliefleren
+      logo: /assets/langliefleren_logo.png
+      tagline: 
+      author: Natasja de Vries
+      social:
+        name: Natasja de Vries
+        links:
+          - https://www.instagram.com/langliefleren/
+      locale: nl_NL
