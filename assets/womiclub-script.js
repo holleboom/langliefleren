@@ -7,7 +7,7 @@ import {
 	gsap
 } from "https://cdn.skypack.dev/gsap@3.6.0";
 
-const letters = document.getElementsByClassName("letter");
+const wmclogo = document.getElementById("wmclogo");
 
 function createLiquidPath(path, options) {
 	const svgPoints = pointsInPath(path, options.detail);
@@ -111,17 +111,14 @@ const prefersReducedMotionQuery = window.matchMedia(
 );
 
 if (prefersReducedMotionQuery && !prefersReducedMotionQuery.matches) {
-
-	Array.prototype.forEach.call(letters, function(el) {
-		createLiquidPath(el, {
-			detail: 32,
-			tension: 1,
-			close: true,
-			range: {
-				x: 50,
-				y: 50
-			},
-			axis: ["y"]
-		});
-	})
+	createLiquidPath(wmclogo, {
+		detail: 64,
+		tension: 1,
+		close: false,
+		range: {
+			x: 35,
+			y: 35
+		},
+		axis: ["y"]
+	});
 }
