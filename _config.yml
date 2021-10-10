@@ -12,7 +12,6 @@ defaults:
     values:
       image: /assets/main_og.png
       logo: /assets/langliefleren_logo.png
-      title: {{page.title}} lang lief leren
       author: Natasja de Vries
       social:
         name: Natasja de Vries
