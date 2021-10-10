@@ -7,7 +7,7 @@ import {
 	gsap
 } from "https://cdn.skypack.dev/gsap@3.6.0";
 
-const letters = document.getElementsByClassName("letter")[0];
+const letters = document.getElementsByClassName("letter");
 
 function createLiquidPath(path, options) {
 	const svgPoints = pointsInPath(path, options.detail);
@@ -111,14 +111,17 @@ const prefersReducedMotionQuery = window.matchMedia(
 );
 
 if (prefersReducedMotionQuery && !prefersReducedMotionQuery.matches) {
-	createLiquidPath(letters, {
-		detail: 64,
-		tension: 1,
-		close: true,
-		range: {
-			x: 12,
-			y: 40
-		},
-		axis: ["y"]
+	letters.forEach(function(item, index, array){
+		createLiquidPath(item, {
+			detail: 32,
+			tension: 1,
+			close: true,
+			range: {
+				x: 50,
+				y: 50
+			},
+			axis: ["y"]
+		});
 	});
+	
 }
