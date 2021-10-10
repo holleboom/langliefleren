@@ -11,3 +11,5 @@ defaults:
       path: ""
     values:
       image: /assets/main_og.png
+      seo:
+        name: {{page.title}} - langliefleren
