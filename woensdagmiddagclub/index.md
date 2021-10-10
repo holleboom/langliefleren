@@ -3,6 +3,7 @@ layout: subpage-woensdagmiddagclub
 title: woensdagmiddagclub
 description: Creatieve workshops voor kinderen van 5 tot 9 jaar
 color: rgb(255,206,222)
+image: womiclub_og.png
 ---
 
 **Lang lief leren organiseert wekelijks een creatieve workshop voor kinderen van 6 tot 10 jaar: de Woensdagmiddagclub!**
