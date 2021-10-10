@@ -6,3 +6,8 @@ sass:
   sass_dir: css/_scss
 plugins:
   - jekyll-seo-tag
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/main_og.png
