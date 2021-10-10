@@ -112,12 +112,12 @@ const prefersReducedMotionQuery = window.matchMedia(
 
 if (prefersReducedMotionQuery && !prefersReducedMotionQuery.matches) {
 	createLiquidPath(wmclogo, {
-		detail: 4096,
-		tension: 1,
+		detail: 512,
+		tension: 3,
 		close: true,
 		range: {
-			x: 35,
-			y: 35
+			x: 150,
+			y: 150
 		},
 		axis: ["x"]
 	});
