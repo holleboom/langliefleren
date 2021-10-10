@@ -7,7 +7,7 @@ import {
 	gsap
 } from "https://cdn.skypack.dev/gsap@3.6.0";
 
-const wmclogo = document.getElementById("wmclogo");
+const wmclogo = document.getElementsBySelector("#wmclogo path");
 
 function createLiquidPath(path, options) {
 	const svgPoints = pointsInPath(path, options.detail);
@@ -112,7 +112,7 @@ const prefersReducedMotionQuery = window.matchMedia(
 
 if (prefersReducedMotionQuery && !prefersReducedMotionQuery.matches) {
 	createLiquidPath(wmclogo, {
-		detail: 512,
+		detail: 64,
 		tension: 1,
 		close: true,
 		range: {
