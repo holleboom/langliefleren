@@ -12,10 +12,10 @@ defaults:
     values:
       image: /assets/main_og.png
       logo: /assets/langliefleren_logo.png
-      tagline: 
+      title: {{page.title}}
       author: Natasja de Vries
       social:
         name: Natasja de Vries
         links:
-          - https://www.instagram.com/langliefleren/
+         - https://www.instagram.com/langliefleren/
       locale: nl_NL
