@@ -7,7 +7,7 @@ import {
 	gsap
 } from "https://cdn.skypack.dev/gsap@3.6.0";
 
-const letters = document.getElementsByClassName("letter");
+const letters = document.getElementsByClassName("letter")[0];
 
 function createLiquidPath(path, options) {
 	const svgPoints = pointsInPath(path, options.detail);
