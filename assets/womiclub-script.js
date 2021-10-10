@@ -1,8 +1,7 @@
 import {
 	spline,
 	pointsInPath,
-	createCoordsTransformer
-} from "https://cdn.skypack.dev/@georgedoescode/generative-utils@1.0.0";
+	createCoordsTransformer } from "https://cdn.skypack.dev/@georgedoescode/generative-utils@1.0.1";
 import {
 	gsap
 } from "https://cdn.skypack.dev/gsap@3.6.0";
