@@ -7,9 +7,7 @@ import {
 	gsap
 } from "https://cdn.skypack.dev/gsap@3.6.0";
 
-const woensdag = document.getElementById("woensdag");
-const middag = document.getElementById("middag");
-const club = document.getElementById("club");
+const letters = document.getElementsByClassName("letter");
 
 function createLiquidPath(path, options) {
 	const svgPoints = pointsInPath(path, options.detail);
@@ -113,27 +111,7 @@ const prefersReducedMotionQuery = window.matchMedia(
 );
 
 if (prefersReducedMotionQuery && !prefersReducedMotionQuery.matches) {
-	createLiquidPath(woensdag, {
-		detail: 64,
-		tension: 1,
-		close: true,
-		range: {
-			x: 12,
-			y: 40
-		},
-		axis: ["y"]
-	});
-	createLiquidPath(middag, {
-		detail: 64,
-		tension: 1,
-		close: true,
-		range: {
-			x: 12,
-			y: 40
-		},
-		axis: ["y"]
-	});
-	createLiquidPath(club, {
+	createLiquidPath(letters, {
 		detail: 64,
 		tension: 1,
 		close: true,
