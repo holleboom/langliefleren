@@ -1,6 +1,7 @@
 ---
 layout: subpage
 title: over
+color: rgb(80,169,123)
 ---
 
 _Lang lief leren_ is bedacht door Natasja de Vries (1989) met als doel om zoveel mogelijk ouders en leerkrachten te [inspireren](https://www.instagram.com/langliefleren/) met handige tips en materialen voor in het basisonderwijs.
