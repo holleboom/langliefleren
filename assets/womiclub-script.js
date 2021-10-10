@@ -111,8 +111,9 @@ const prefersReducedMotionQuery = window.matchMedia(
 );
 
 if (prefersReducedMotionQuery && !prefersReducedMotionQuery.matches) {
-	letters.forEach(function(item, index, array){
-		createLiquidPath(item, {
+
+	Array.prototype.forEach.call(letters, function(el) {
+		createLiquidPath(el, {
 			detail: 32,
 			tension: 1,
 			close: true,
@@ -122,6 +123,5 @@ if (prefersReducedMotionQuery && !prefersReducedMotionQuery.matches) {
 			},
 			axis: ["y"]
 		});
-	});
-	
+	})
 }
