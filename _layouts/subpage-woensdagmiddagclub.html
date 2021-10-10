@@ -4,18 +4,16 @@ layout: home
 <script type="text/javascript" src="https://checkoutpage.co/js/overlay.js" defer></script>
 
 <script type="module">
-	import georgedoescodeGenerativeUtils from 'https://cdn.skypack.dev/@georgedoescode/generative-utils';
-  </script>
+	import {spline, pointsInPath, createCoordsTransformer} from 'https://cdn.skypack.dev/@georgedoescode/generative-utils';
+</script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
-
-
 
 <script>
 
 	const wmclogo = document.getElementById("wmclogo");
 
 	function createLiquidPath(path, options) {
-		const svgPoints = georgedoescodeGenerativeUtils.pointsInPath(path, options.detail);
+		const svgPoints = pointsInPath(path, options.detail);
 		const originPoints = svgPoints.map(({
 			x,
 			y
@@ -35,7 +33,7 @@ layout: home
 			x: 0,
 			y: 0
 		};
-		const transformCoords = georgedoescodeGenerativeUtils.createCoordsTransformer(path.closest("svg"));
+		const transformCoords = createCoordsTransformer(path.closest("svg"));
 
 		const pointDistance = Math.hypot(
 			originPoints[0].x - originPoints[1].x,
@@ -49,7 +47,7 @@ layout: home
 		gsap.ticker.add(() => {
 			gsap.set(path, {
 				attr: {
-					d: georgedoescodeGenerativeUtils.spline(liquidPoints, options.tension, options.close)
+					d: spline(liquidPoints, options.tension, options.close)
 				}
 			});
 		});
