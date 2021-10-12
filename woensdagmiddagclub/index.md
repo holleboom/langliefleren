@@ -1,19 +1,20 @@
 ---
 layout: subpage-woensdagmiddagclub
 title: woensdagmiddagclub
-description: Creatieve workshops voor kinderen van 5 tot 9 jaar
+description: Creatieve workshops voor kinderen van 6 tot 10 jaar
 color: rgb(255,206,222)
 image: /assets/womiclub_og.png
 ---
 
 **Lang lief leren organiseert wekelijks een creatieve workshop voor kinderen van 6 tot 10 jaar: de Woensdagmiddagclub!**
 
-<a class="cp-button" data-seller="langliefleren" data-checkout="woensdagmiddagclub">Direct inschrijven</a>
+<a class="cp-button" data-seller="langliefleren" data-checkout="woensdagmiddagclub">Aanmelden</a>
 
 ## Wanneer?
 
 Elke woensdagmiddag van 14.00 tot 16.15 uur (alleen kinderen). De inloop met ouders/verzorgers is vanaf 13.45 uur.
-Zie het [inschrijfformulier](https://checkoutpage.co/checkout/langliefleren/woensdagmiddagclub){:target="_blank"} voor alle data.
+
+Zie het [aanmeldformulier](https://checkoutpage.co/checkout/langliefleren/woensdagmiddagclub){:target="_blank"} voor alle data.
 
 ## Waar?
 
@@ -26,7 +27,9 @@ Houd [Instagram](https://www.instagram.com/langliefleren/){:target="_blank"} in 
 
 ### Wat zijn denksleutels?
 
-Lang lief leren wil kinderen tijdens de workshops stimuleren om creatief te denken. Door gebruik te maken van denksleutels leren kinderen om op een verrassende en creatieve manier over een onderwerp na te denken. Een voorbeeld van zo’n denksleutel is ‘de combinatiesleutel’ waarbij kinderen nadenken over eigenschappen van twee voorwerpen die niet bij elkaar horen. Wat ontstaat er wanneer je die eigenschappen wél met elkaar combineert?
+Lang lief leren wil kinderen tijdens de workshops stimuleren om creatief te denken. Door gebruik te maken van denksleutels leren kinderen om op een verrassende en creatieve manier over een onderwerp na te denken. Een voorbeeld van zo’n denksleutel is ‘de combinatiesleutel’ waarbij kinderen nadenken over eigenschappen van twee voorwerpen die niet bij elkaar horen. 
+
+Wat ontstaat er wanneer je die eigenschappen wél met elkaar combineert?
 
 ### Koken
 
@@ -39,11 +42,11 @@ Naast voorlezen, knutselen en koken, is er ook ruimte voor beweging. Dit doen we
 ## Kosten en aanmelden
 
 Woensdagmiddagclub kost €15,00 per kind per keer.
-Een strippenkaart voor 3 woensdagmiddagclubs kost €42,50.
 Thee, water en diksap is inbegrepen. Zo ook een gezonde snack die samen met de kinderen wordt bereid zoals soep, een smoothie of een fruit- en groentesalade.
 
-De betaling verloopt via iDeal. Na betaling ontvang je een bevestiging van je inschrijving per e-mail. Het is ook mogelijk om contant te betalen bij het brengen van je kind. Gebruik daarvoor de kortingscode <b>CONTANT</b> bij het afrekenen.
+De betaling verloopt via iDeal. Na betaling ontvang je een bevestiging van de inschrijving per e-mail. Het is ook mogelijk om contant te betalen bij het brengen van je kind. Gebruik daarvoor de kortingscode <b>CONTANT</b> bij het afrekenen.
 
-<a class="cp-button" data-seller="langliefleren" data-checkout="woensdagmiddagclub">Direct inschrijven</a>
+<a class="cp-button" data-seller="langliefleren" data-checkout="woensdagmiddagclub">Aanmelden</a>
 
-<small>Let op: De workshop kan alleen doorgaan bij een minimale deelname van 4 kinderen.</small>
+<small> <em>Let op: De workshop kan alleen doorgaan bij een minimale deelname van 4 kinderen. Heb je al betaald en gaat de workshop niet door? Dan krijg je het geld teruggestort op je rekening. Wel aangemeld en kun je er toch niet bij zijn? Laat het Lang lief leren tijdig [weten]((mailto:info@langliefleren.nl?subject=Afmelden){:target="_blank"} zodat er plek is voor een ander kind.</em>
+</small>

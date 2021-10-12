@@ -47,6 +47,7 @@ body {
 				padding: 10px 5px;
 				border-radius: 30px;
 				text-decoration: none;
+				margin: $gutter 0;
 
 				&:hover{
 					background: $blueDark;
@@ -65,10 +66,10 @@ body {
 	&.contact {
 		background-color: $pinkDark;
 		nav li a {
-			outline-color: white;
+			outline-color: $yellow;
 		}
 		* {
-			color: white;
+			color: $yellow;
 		}
 	}
 	
@@ -101,6 +102,8 @@ nav {
 			border-bottom: none;
 			padding: 0 10px;
 			border-radius: 20px;
+			-webkit-border-radius: 20px;
+			display: inline-block;
 		}
 		a:hover,
 		&.current a {
