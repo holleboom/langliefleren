@@ -110,7 +110,7 @@ nav {
 			outline: 2px solid;
 		}
 
-		&.woensdagmiddagclub{
+		&.woensdagmiddagclub:not(.current){
 			visibility: hidden;
 			&:after{
 				content: "";
