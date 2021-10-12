@@ -136,7 +136,7 @@ nav {
 					outline: none;
 				}
 			}
-			svg {
+			svg, img {
 				min-width: 50px;
 				@media only screen and (min-width: $breakpoint-med) {
 					transform: translate(3px, 5px);
