@@ -12,15 +12,15 @@
 				</ul>
 			</li>
         {% else %}
-			{% if entry.title == 'woensdag' %}
+			<!-- {% if entry.title == 'woensdag' %}
 			<li class="{{entry.url | remove: '/'}} {% if entry.url == page.url %}current{% endif %}">
 				<a href="{{ site.baseurl }}{{ entry.url }}">{% include womiclub_logo.html %}</a>
 			</li>
-			{% else %}
+			{% else %} -->
 				<li class="{{entry.url | remove: '/'}} {% if entry.url == page.url %}current{% endif %}">
 					<a href="{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a>
 				</li>
-			{% endif %}
+			<!-- {% endif %} -->
         {% endif %}
     {% endfor %}
     </ul>
