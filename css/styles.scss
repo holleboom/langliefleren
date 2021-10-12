@@ -15,6 +15,7 @@ body {
 	}
 	* {
 		color: $pinkDark;
+		fill: $pinkDark;
 	}
 	
 
@@ -23,14 +24,23 @@ body {
 		nav li a {
 			outline-color: $pink;
 		}
-		* { color: $pink;}
+		* { 
+			color: $pink;
+			svg {
+				fill:$pink;
+			}
+		}
 	}
 	&[class^='woensdagmiddagclub'] {
 		background-color: $pink;
 		nav li a {
 			outline-color: $blueDark;
 		}
-		* { color: $blueDark;}
+		* { color: $blueDark;
+			svg {
+				fill:$blueDark;
+			}
+		}
 		
 		.cp-button, .cp-inline {
 			cursor: pointer;
@@ -61,7 +71,11 @@ body {
 		nav li a {
 			outline-color: $blueDark;
 		}
-		* { color: $blueDark; }
+		* { color: $blueDark;
+			svg {
+				fill:$blueDark;
+			}
+		}
 	}
 	&.contact {
 		background-color: $pinkDark;
@@ -70,6 +84,9 @@ body {
 		}
 		* {
 			color: $yellow;
+			svg {
+				fill:$yellow;
+			}
 		}
 	}
 	
