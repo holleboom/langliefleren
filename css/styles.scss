@@ -109,26 +109,6 @@ nav {
 		&.current a {
 			outline: 2px solid;
 		}
-
-		&.woensdagmiddagclub:not(.current){
-			position: relative;
-			&:after{
-				content: "";
-				position: absolute;
-				width: 75px;
-				height: 30px;
-				left: 100%;
-				@media only screen and (min-width: $breakpoint-med) {
-					left: 50%;
-				}
-				transform: translate(-50%, -5px);
-				bottom: 100%;
-				background-image: url("https://holleboom.github.io/langliefleren/assets/womiclublogo.svg");
-				background-size: contain;
-				background-position: center center;
-				background-repeat: no-repeat;
-			}
-		}
 	}
 	
 
