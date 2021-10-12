@@ -13,7 +13,9 @@
 			</li>
         {% else %}
 			{% if entry.title == 'woensdag' %}
-				HELP
+			<li class="{{entry.url | remove: '/'}} {% if entry.url == page.url %}current{% endif %}">
+				<figure>{% include womiclub_logo.html %}</figure>
+			</li>
 			{% else %}
 				<li class="{{entry.url | remove: '/'}} {% if entry.url == page.url %}current{% endif %}">
 					<a href="{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a>
