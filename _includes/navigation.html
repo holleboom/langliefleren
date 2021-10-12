@@ -3,7 +3,7 @@
     {% for entry in site.data.navigation %}
         {% assign sublinks = entry.sublinks %}
         {% if sublinks %}
-		<li class="{{entry.url | remove: '/'}} {% if {{ entry.url }} == page.url %}current{% endif %}">
+		<li class="{% if {{ entry.url }} == page.url %}current{% endif %} {{entry.url | remove: '/'}}">
             <a href="{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a>
             <ul>
                 {% for sublink in sublinks %}
@@ -12,15 +12,8 @@
             </ul>
         </li>
         {% else %}
-			{% if entry.url == 'woensdag' }}
-				<li class="{{entry.url | remove: '/'}} {% if entry.url == page.url %}current{% endif %}">
-					<a href="{{ site.baseurl }}{{ entry.url }}">{% include womiclub_logo.html %}</a>
-				</li>
-			{% else %}
-				<li class="{{entry.url | remove: '/'}} {% if entry.url == page.url %}current{% endif %}">
-					<a href="{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a>
-				</li>
-			{% endif %}
+		<li class="{% if entry.url == page.url %}current{% endif %} {{entry.url | remove: '/'}}">
+			<a href="{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a></li>
         {% endif %}
     {% endfor %}
     </ul>
