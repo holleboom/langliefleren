@@ -109,6 +109,17 @@ nav {
 		&.current a {
 			outline: 2px solid;
 		}
+
+		&.woensdagmiddagclub:not('.current'){
+			visibility: hidden;
+			&:after{
+				content: "";
+				width: 100%;
+				height: 100%;
+				position: absolute;
+				background-image: src();
+			}
+		}
 	}
 	
 
