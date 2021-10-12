@@ -3,7 +3,7 @@
     {% for entry in site.data.navigation %}
         {% assign sublinks = entry.sublinks %}
         {% if sublinks %}
-		<li class="{% if {{ entry.url }} == page.url %}current{% endif %}">
+		<li class="{% if {{ entry.url }} == page.url %}current{% endif %} {{entry.url | remove: '/'}}">
             <a href="{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a>
             <ul>
                 {% for sublink in sublinks %}
@@ -12,7 +12,7 @@
             </ul>
         </li>
         {% else %}
-		<li class="{% if entry.url == page.url %}current{% endif %}">
+		<li class="{% if entry.url == page.url %}current{% endif %} {{entry.url | remove: '/'}}">
 			<a href="{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a></li>
         {% endif %}
     {% endfor %}
