@@ -26,9 +26,7 @@ body {
 		}
 		* { 
 			color: $pink;
-			svg {
 				fill:$pink;
-			}
 		}
 	}
 	&[class^='woensdagmiddagclub'] {
@@ -37,9 +35,7 @@ body {
 			outline-color: $blueDark;
 		}
 		* { color: $blueDark;
-			svg {
 				fill:$blueDark;
-			}
 		}
 		
 		.cp-button, .cp-inline {
@@ -72,9 +68,9 @@ body {
 			outline-color: $blueDark;
 		}
 		* { color: $blueDark;
-			svg {
+
 				fill:$blueDark;
-			}
+
 		}
 	}
 	&.contact {
@@ -84,9 +80,9 @@ body {
 		}
 		* {
 			color: $yellow;
-			svg {
+
 				fill:$yellow;
-			}
+
 		}
 	}
 	
