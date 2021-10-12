@@ -1,4 +1,8 @@
---- # Front matter comment to ensure Jekyll properly reads file. --- @import "variables";
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+
+@import "variables";
 @import "simple-grid";
 
 @import "home.scss";
@@ -6,92 +10,69 @@
 
 body {
 	background-color: $yellow;
-
 	nav li a {
 		outline-color: $pinkDark;
 	}
-
 	* {
 		color: $pinkDark;
 	}
-
+	
 
 	&.over {
 		background-color: $green;
-
 		nav li a {
 			outline-color: $pink;
 		}
-
-		* {
-			color: $pink;
-
-		}
+		* { color: $pink;}
 	}
-
 	&[class^='woensdagmiddagclub'] {
 		background-color: $pink;
-
 		nav li a {
 			outline-color: $blueDark;
 		}
-
-		* {
-			color: $blueDark;
-			fill: $blueDark;
-		}
-
-		.cp-button,
-		.cp-inline {
+		* { color: $blueDark;}
+		
+		.cp-button, .cp-inline {
 			cursor: pointer;
 			outline: none;
 			user-select: none;
 
 		}
-
 		.cp-button {
-			display: block;
-			text-align: center;
-			border: 2px solid $blueDark;
-			font-weight: $font-weight-heavy;
-			font-size: 1.15em;
-			padding: 10px 5px;
-			border-radius: 30px;
-			text-decoration: none;
-			margin: $gutter*2 0;
+				display:block;
+				text-align: center;
+				border: 2px solid $blueDark;
+				font-weight: $font-weight-heavy;
+				font-size: 1.15em;
+				padding: 10px 5px;
+				border-radius: 30px;
+				text-decoration: none;
+				margin: $gutter*2 0;
 
-			&:hover {
-				background: $blueDark;
-				color: $pink;
-			}
+				&:hover{
+					background: $blueDark;
+					color: $pink;
+				}
 		}
 
 	}
-
 	&.downloads {
 		background-color: $blue;
-
 		nav li a {
 			outline-color: $blueDark;
 		}
-
-		* {
-			color: $blueDark;
-		}
+		* { color: $blueDark; }
 	}
-
 	&.contact {
 		background-color: $pinkDark;
-
 		nav li a {
 			outline-color: $yellow;
 		}
-
 		* {
 			color: $yellow;
 		}
 	}
-
+	
 }
 
 a {
@@ -113,12 +94,10 @@ nav {
 		margin: 0;
 		padding: 0;
 	}
-
 	li {
 		display: block;
 		margin: $gutter/2 ($gutter/5);
 		vertical-align: middle;
-
 		a {
 			text-decoration: none;
 			border-bottom: none;
@@ -127,27 +106,21 @@ nav {
 			-webkit-border-radius: 20px;
 			display: inline-block;
 		}
-
 		a:hover,
 		&.current a {
 			outline: 2px solid;
 		}
 
-		&.woensdagmiddagclub {
+		&.woensdagmiddagclub{
 			margin: $gutter/2 0;
-
 			a {
 				outline: none;
-
-				&:hover {
+				&:hover{
 					outline: none;
 				}
 			}
-
-			svg,
-			img {
+			svg, img {
 				min-width: 50px;
-
 				@media only screen and (min-width: $breakpoint-med) {
 					transform: translate(3px, 5px);
 					min-width: 70px;
@@ -155,18 +128,17 @@ nav {
 			}
 		}
 	}
-
+	
 
 	@media only screen and (min-width: $breakpoint-med) {
 		li {
 			display: inline-block;
 		}
 	}
-
 	@media only screen and (min-width: $breakpoint-med) {
 		position: sticky;
 		text-align: right !important;
-
+		
 		li {
 			display: inline-block;
 		}
