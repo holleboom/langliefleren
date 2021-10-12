@@ -116,12 +116,12 @@ nav {
 				content: "";
 				position: absolute;
 				width: 75px;
-				height: 35px;
+				height: 30px;
 				left: 100%;
 				@media only screen and (min-width: $breakpoint-med) {
 					left: 50%;
 				}
-				transform: translate(-50%);
+				transform: translate(-50%, -5px);
 				bottom: 100%;
 				background-image: url("https://holleboom.github.io/langliefleren/assets/womiclublogo.svg");
 				background-size: contain;
