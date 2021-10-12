@@ -1,16 +1,16 @@
 # Belongs at: /_data/navigation.yml
 
-- title: Home
+- title: home
   url: /
 
-- title: Over
+- title: over
   url: /over/
 
-- title: Woensdag
+- title: woensdag
   url: /woensdagmiddagclub/
 
-- title: Downloads
+- title: downloads
   url: /downloads/
 
-- title: Contact
+- title: contact
   url: /contact/

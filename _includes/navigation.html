@@ -12,8 +12,15 @@
             </ul>
         </li>
         {% else %}
-		<li class="{% if entry.url == page.url %}current{% endif %} {{entry.url | remove: '/'}}">
-			<a href="{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a></li>
+			{% if {{ entry.url == 'woensdag' }}
+			<li class="{% if entry.url == page.url %}current{% endif %} {{entry.url | remove: '/'}}">
+				<a href="{{ site.baseurl }}{{ entry.url }}">{% include womiclub_logo.html %}</a>
+			</li>
+			{% else %}
+				<li class="{% if entry.url == page.url %}current{% endif %} {{entry.url | remove: '/'}}">
+					<a href="{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a>
+				</li>
+			{% endif %}
         {% endif %}
     {% endfor %}
     </ul>
