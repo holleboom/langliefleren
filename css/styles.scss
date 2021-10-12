@@ -47,7 +47,7 @@ body {
 				padding: 10px 5px;
 				border-radius: 30px;
 				text-decoration: none;
-				margin: $gutter 0;
+				margin: $gutter*2 0;
 
 				&:hover{
 					background: $blueDark;
@@ -110,7 +110,7 @@ nav {
 			outline: 2px solid;
 		}
 
-		&.woensdagmiddagclub:not('.current'){
+		&.woensdagmiddagclub{
 			visibility: hidden;
 			&:after{
 				content: "";

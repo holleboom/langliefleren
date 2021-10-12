@@ -48,5 +48,5 @@ De betaling verloopt via iDeal. Na betaling ontvang je een bevestiging van de in
 
 <a class="cp-button" data-seller="langliefleren" data-checkout="woensdagmiddagclub">Aanmelden</a>
 
-<small> <em>Let op: De workshop kan alleen doorgaan bij een minimale deelname van 4 kinderen. Heb je al betaald en gaat de workshop niet door? Dan krijg je het geld teruggestort op je rekening. Wel aangemeld en kun je er toch niet bij zijn? Laat het Lang lief leren tijdig [weten]((mailto:info@langliefleren.nl?subject=Afmelden){:target="_blank"} zodat er plek is voor een ander kind.</em>
+<small><em>Let op: De workshop kan alleen doorgaan bij een minimale deelname van 4 kinderen. Heb je al betaald en gaat de workshop niet door? Dan krijg je het geld teruggestort op je rekening. Wel aangemeld en kun je er toch niet bij zijn? Laat het Lang lief leren tijdig [weten](mailto:info@langliefleren.nl?subject=Afmelden){:target="_blank"} zodat er plek is voor een ander kind.</em>
 </small>
