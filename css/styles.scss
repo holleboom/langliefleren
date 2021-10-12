@@ -15,7 +15,9 @@ body {
 	}
 	* {
 		color: $pinkDark;
-		fill: $pinkDark;
+		&.wmc_color {
+			fill: $pinkDark;
+		}
 	}
 	
 
@@ -26,7 +28,9 @@ body {
 		}
 		* { 
 			color: $pink;
-				fill:$pink;
+			&.wmc_color {
+				fill:$pink;;
+			}
 		}
 	}
 	&[class^='woensdagmiddagclub'] {
@@ -68,9 +72,9 @@ body {
 			outline-color: $blueDark;
 		}
 		* { color: $blueDark;
-
+			&.wmc_color {
 				fill:$blueDark;
-
+			}
 		}
 	}
 	&.contact {
@@ -80,9 +84,9 @@ body {
 		}
 		* {
 			color: $yellow;
-
+			&.wmc_color {
 				fill:$yellow;
-
+			}
 		}
 	}
 	
