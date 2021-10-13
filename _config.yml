@@ -1,6 +1,6 @@
 auto: true
 permalink: /:title/
-baseurl: /langliefleren
+baseurl: /
 sass:
   style: compressed
   sass_dir: css/_scss
@@ -16,5 +16,5 @@ defaults:
       social:
         name: Natasja de Vries
         links:
-         - https://www.instagram.com/langliefleren/
+          - https://www.instagram.com/langliefleren/
       locale: nl_NL
