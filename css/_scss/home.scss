@@ -133,3 +133,14 @@
 		animation-delay: -9s;
 	}
 }
+.quoteContainer {
+	position: fixed;
+	top: 95vh;
+	width: 100vw;
+	height: 95vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	font-weight: $font-weight-heavy;
+}
