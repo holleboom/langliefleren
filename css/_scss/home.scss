@@ -111,7 +111,7 @@
 		svg {
 			width: 100%;
 			animation: spin infinite 90s linear;
-			animation-delay: -22.5s;
+			animation-delay: 0;
 		}
 
 		@keyframes spin {
@@ -130,6 +130,6 @@
 	}
 	 .slogan svg {
 		animation-direction: reverse !important;
-		animation-delay: 0;
+		animation-delay: -22.5s;
 	}
 }
