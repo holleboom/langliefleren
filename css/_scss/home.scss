@@ -97,7 +97,8 @@
 	align-items: center;
 	justify-content: center;
 	
-	.logo {
+	.logo,
+	.slogan {
 		position: relative;
 		display: inline-block;
 		width: 75vw;
@@ -125,5 +126,8 @@
 				transform: rotate(360deg);
 			}
 		}
+	}
+	 .slogan {
+		animation-direction: reverse;
 	}
 }
