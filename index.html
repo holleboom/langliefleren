@@ -43,13 +43,13 @@ color: rgb(252,247,123)
 				'Marjolijn: “In één woord geweldig. Het warme welkom, de fijne omgeving…”'
 			
 			];
-			
+
 			$(".quoteContainer #quote").fadeOut(200, function () {
 				$(this).text(wordsArray[count % wordsArray.length]).fadeIn(200);
 			});
 
 			setInterval(function () {
-				count++''
+				count++;
 				$(".quoteContainer #quote").fadeOut(200, function () {
 					$(this).text(wordsArray[count % wordsArray.length]).fadeIn(200);
 				});
