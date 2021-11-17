@@ -99,7 +99,7 @@
 	
 	.logo,
 	.slogan {
-		position: relative;
+		position: absolute;
 		display: inline-block;
 		width: 75vw;
 		margin-top: 10vh;
@@ -127,7 +127,7 @@
 			}
 		}
 	}
-	 .slogan {
-		animation-direction: reverse;
+	 .slogan svg {
+		animation-direction: reverse !important;
 	}
 }
