@@ -44,8 +44,10 @@ color: rgb(252,247,123)
 		];
 		setInterval(function () {
 		count++;
-		if (count > 0) {
-			delay = 1000;	
+		if (count == 0) {
+			delay = 0;	
+		} else {
+			delay = 3500;
 		}
 			$(".quoteContainer #quote").fadeOut(200, function () {
 					$(this).text(wordsArray[count % wordsArray.length]).fadeIn(200);
