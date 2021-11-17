@@ -29,6 +29,24 @@ color: rgb(252,247,123)
 		</figure>
 	</div>
 	<div class="quoteContainer">
-		<p class="quote">Mireille: "Dankjewel voor het warme onthaal. De dames waren gelijk op hun gemak."</p>
+		<p id="quote">Mireille: "Dankjewel voor het warme onthaal. De dames waren gelijk op hun gemak."</p>
 	</div>
+	<script>
+		$(function () {
+		count = 0;
+		wordsArray = [
+			'Mireille: "Dankjewel voor het warme onthaal. De dames waren gelijk op hun gemak."',
+			'Dana (6): “We leerden ook, maar dat was wel leuk leren”',
+			'Fleur (8): “Dit was zó leuk”',
+			'Marjolijn: “In één woord geweldig. Het warme welkom, de fijne omgeving…”'
+		 
+		];
+		setInterval(function () {
+		count++;
+		$(".quoteContainer #quote").fadeOut(200, function () {
+				$(this).text(wordsArray[count % wordsArray.length]).fadeIn(200);
+			});
+		}, 4000);
+		});
+	</script>
 </div>
