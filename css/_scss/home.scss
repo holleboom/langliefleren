@@ -135,9 +135,9 @@
 }
 .quoteContainer {
 	position: fixed;
-	top: 90vh;
+	bottom: 0vh;
 	width: 100vw;
-	height: 10vh;
+	height: auto;
 	display: flex;
 	align-items: center;
 	justify-content: center;
