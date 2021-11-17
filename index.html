@@ -52,10 +52,7 @@ color: rgb(252,247,123)
 				$(".quoteContainer #quote").fadeOut(200, function () {
 						$(this).text(wordsArray[count % wordsArray.length]).fadeIn(200);
 					});
-				}, 4000);
-			$(".quoteContainer #quote").click(function() {
-				$(this).text(wordsArray[count % wordsArray.length]).fadeIn(200);
-			});	
+				}, delay);
 		});
 	</script>
 </div>
