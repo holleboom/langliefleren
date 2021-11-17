@@ -142,8 +142,9 @@
 	align-items: center;
 	justify-content: center;
 	.quote {
-		max-width: 480px;
-		margin: 20px auto;
+		width:100%;
+		max-width: $breakpoint-small;
+		margin: 20px;
 		text-align: center;
 		font-weight: $font-weight-heavy;
 	}
