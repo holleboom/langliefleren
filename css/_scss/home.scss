@@ -135,7 +135,7 @@
 }
 .quoteContainer {
 	position: fixed;
-	bottom: 0vh;
+	bottom: 0;
 	width: 100vw;
 	height: auto;
 	display: flex;
@@ -143,9 +143,9 @@
 	justify-content: center;
 	#quote {
 		font-size: 1em;
-		width:100%;
+		width: 100%;
 		max-width: 480px;
-		margin: 0 15px 30px;
+		margin: 0 15px 40px;
 		text-align: center;
 		font-weight: $font-weight-heavy;
 	}
