@@ -57,12 +57,25 @@ body {
 
 	}
 	&.downloads {
-		background-color: $blue;
+		background-color: $orange;
 		nav li a {
 			color: $blueDark;
 		}
 		* { color: $blueDark; }
 	}
+
+	&.feestjes {
+		background-color: $blue;
+
+		nav li a {
+			color: $yellow;
+		}
+
+		* {
+			color: $yellow;
+		}
+	}
+
 	&.contact {
 		background-color: $pinkDark;
 		nav li a {
