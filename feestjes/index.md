@@ -2,7 +2,7 @@
 layout: subpage
 title: feestjes
 description: Lang lief leren organiseert ook creatieve workshops aan huis voor iedereen vanaf 5 jaar!
-color: rgb(155,38,95)
+color: rgb(154,194,220)
 ---
 
 ### Feestjes

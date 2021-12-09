@@ -99,16 +99,16 @@ $breakpoint-med: 45em; // 720px
 $breakpoint-large: 80em;
 
 .container {
-  width: 90%;
+  width: 95%;
   margin-left: auto;
   margin-right: auto;
 
   @media only screen and (min-width: $breakpoint-small) {
-    width: 80%;
+    width: 85%;
   }
 
   @media only screen and (min-width: $breakpoint-large) {
-    width: 75%;
+    width: 80%;
     max-width: 60rem;
   }
 }
