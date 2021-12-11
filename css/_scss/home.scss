@@ -94,20 +94,20 @@
 }
 
 .wave .char {
-	animation: wave 2s ease-in-out infinite;
-	transform: translateY(-2em);
-	animation-delay: calc(0.05s * var(--char-index))
+	animation: wave 1s ease-in-out infinite;
+	// transform: translateY(-2em);
+	animation-delay: calc(0.25s * var(--char-index))
 }
 
 @keyframes wave {
 
 	0%,
 	100% {
-		transform: translateY(-2em) rotate(-25deg);
+		transform: translateY(-25%) rotate(-7.5deg);
 	}
 
 	50% {
-		transform: translateY(2em) rotate(25deg);
+		transform: translateY(25%) rotate(7.5deg);
 	}
 }
 
