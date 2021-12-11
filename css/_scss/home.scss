@@ -96,6 +96,7 @@
 .wave .char {
 	animation: wave 1s ease-in-out infinite;
 	// transform: translateY(-2em);
+	display: inline-block;
 	animation-delay: calc(0.25s * var(--char-index))
 }
 
