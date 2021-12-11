@@ -99,9 +99,10 @@
 }
 
 .wave .char {
-	animation: wave 1.5s ease-in-out infinite;
+	animation: wave 2s ease-in-out infinite;
 	transform: translateY(-33%);
-	animation-delay: calc(0.035s * var(--char-index))
+	animation-delay: calc(0.15s * var(--char-index));
+	display: inline-block;
 }
 
 @keyframes wave {
