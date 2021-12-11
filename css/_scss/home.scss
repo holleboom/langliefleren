@@ -94,7 +94,7 @@
 }
 
 .wave {
-	font-size: 6vw;
+	font-size: 3em + 3vw;
 	text-align: center;
 }
 
@@ -171,7 +171,7 @@
 	align-items: flex-start;
 	justify-content: center;
 	#quote {
-		font-size: 1em;
+		font-size: calc(1em + 0.25vw);
 		width: 100%;
 		max-width: 480px;
 		margin: 0 20px 20px;
