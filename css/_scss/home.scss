@@ -96,7 +96,7 @@
 }
 
 .wave {
-	font-size: calc(3em + 2vw);
+	font-size: calc(3em + 1vw);
 	@media only screen and (min-width: $breakpoint-med) {
 		font-size: calc(3em + 4vw);
 	}
