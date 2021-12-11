@@ -26,7 +26,11 @@
   gtag('config', 'G-FQY9YYS3QM');
 </script>
   </head>
-  <body class="{{ page.url | remove: '/' }}">
+{% if page.url == "/index.html" %}
+   	<body class="home">
+{% else %}
+	<body class="{{ page.url | remove: '/' }}">
+{% endif %}
 	{% include navigation.html %}
     <section>
       {{ content }}
