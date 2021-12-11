@@ -122,6 +122,21 @@
 	}
 }
 
+.gradient {
+	position: fixed;
+	left: 0;
+	width: 100%;
+	height: 15vh;
+	
+	background: linear-gradient(hsla(0, 0, 0, 0), hsla(0, 0, 0, 0.15));
+	&.top {
+		top: 0;
+	}
+	&.bottom {
+		bottom: 0;
+	}
+}
+
 .logoContainer {
 	position: fixed;
 	top: 0;
