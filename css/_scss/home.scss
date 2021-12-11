@@ -89,13 +89,13 @@
 }
 
 .wave {
-	font-size: 5em;
+	font-size: 6vw;
 	text-align: center;
 }
 
 .wave .char {
-	animation: wave 1s ease-in-out infinite;
-	transform: translateY(-25%);
+	animation: wave 1.5s ease-in-out infinite;
+	transform: translateY(-33%);
 	animation-delay: calc(0.035s * var(--char-index))
 }
 
@@ -103,11 +103,11 @@
 
 	0%,
 	100% {
-		transform: translateY(-25%) rotate(-7.5deg);
+		transform: translateY(-33%) rotate(-7.5deg);
 	}
 
 	50% {
-		transform: translateY(25%) rotate(7.5deg);
+		transform: translateY(33%) rotate(7.5deg);
 	}
 }
 
