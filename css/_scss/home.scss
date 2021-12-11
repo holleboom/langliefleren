@@ -132,7 +132,7 @@
 	&.top {
 		top: 0;
 		@media only screen and (max-width: $breakpoint-med) {
-			margin-top: 35vh;
+			height: 35vh;
 		}
 	}
 	&.bottom {
