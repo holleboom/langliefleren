@@ -95,7 +95,7 @@
 }
 
 .wave {
-	font-size: calc(3em + 3vw);
+	font-size: calc(3em + 4vw);
 	text-align: center;
 }
 
@@ -135,7 +135,7 @@
 		margin-top: 7.5vh;
 
 		@media only screen and (min-width: $breakpoint-med) {
-			width: 45vw;
+			//width: 45vw;
 			margin-top: 0;
 		}
 		svg {
