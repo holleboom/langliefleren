@@ -96,7 +96,7 @@
 }
 
 .wave {
-	font-size: calc(3em + 4vw);
+	font-size: calc(3em + 3.5vw);
 	text-align: center;
 }
 
@@ -176,7 +176,7 @@
 		font-size: calc(1em + 0.35vw);
 		width: 100%;
 		max-width: 480px;
-		margin: 0 20px 20px;
+		margin: 0 20px 60px;
 		text-align: center;
 		font-weight: $font-weight-heavy;
 	}
