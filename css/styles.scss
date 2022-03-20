@@ -9,154 +9,152 @@
 @import "subPage";
 
 body {
-	background-color: $yellow;
-	nav li a {
-		color: $yellow;
-	}
-	* {
-		color: $yellow;
-	}
-	
+  background-color: $yellow;
+  nav li a {
+    color: $yellow;
+  }
+  * {
+    color: $yellow;
+  }
 
-	&.over {
-		background-color: $green;
-		nav li a {
-			color: $pink;
-		}
-		* { color: $pink;}
-	}
-	&[class^='woensdagmiddagclub'] {
-		background-color: $pink;
-		nav li a {
-			color: $blueDark;
-		}
-		* { color: $blueDark;}
-		
-		.cp-button, .cp-inline {
-			cursor: pointer;
-			outline: none;
-			user-select: none;
+  &.over {
+    background-color: $green;
+    nav li a {
+      color: $pink;
+    }
+    * {
+      color: $pink;
+    }
+  }
+  &[class^="woensdagmiddagclub"] {
+    background-color: $pink;
+    nav li a {
+      color: $blueDark;
+    }
+    * {
+      color: $blueDark;
+    }
 
-		}
-		.cp-button {
-				display:block;
-				text-align: center;
-				border: 2px solid $blueDark;
-				font-weight: $font-weight-heavy;
-				font-size: 1.15em;
-				padding: 10px 5px;
-				border-radius: 30px;
-				text-decoration: none;
-				margin: $gutter*2 0;
+    .cp-button,
+    .cp-inline {
+      cursor: pointer;
+      outline: none;
+      user-select: none;
+    }
+    .cp-button {
+      display: block;
+      text-align: center;
+      border: 2px solid $blueDark;
+      font-weight: $font-weight-heavy;
+      font-size: 1.15em;
+      padding: 10px 5px;
+      border-radius: 30px;
+      text-decoration: none;
+      margin: $gutter * 2 0;
 
-				&:hover{
-					background: $blueDark;
-					color: $pink;
-				}
-		}
+      &:hover {
+        background: $blueDark;
+        color: $pink;
+      }
+    }
+  }
+  &.downloads {
+    background-color: $orange;
+    nav li a {
+      color: $blueDark;
+    }
+    * {
+      color: $blueDark;
+    }
+  }
 
-	}
-	&.downloads {
-		background-color: $orange;
-		nav li a {
-			color: $blueDark;
-		}
-		* { color: $blueDark; }
-	}
+  &.feestjes {
+    background-color: $blue;
 
-	&.feestjes {
-		background-color: $blue;
+    nav li a {
+      color: $yellow;
+    }
 
-		nav li a {
-			color: $yellow;
-		}
+    * {
+      color: $yellow;
+    }
+  }
 
-		* {
-			color: $yellow;
-		}
-	}
-
-	&.contact {
-		background-color: $pinkDark;
-		nav li a {
-			color: $yellow;
-		}
-		* {
-			color: $yellow;
-		}
-	}
-	
+  &.contact {
+    background-color: $pinkDark;
+    nav li a {
+      color: $yellow;
+    }
+    * {
+      color: $yellow;
+    }
+  }
 }
 
 a {
-	text-decoration: underline;
-	text-underline-offset: 1px;
+  text-decoration: underline;
+  text-underline-offset: 1px;
 }
 
 nav {
-	position: relative;
-	z-index: 999;
-	top: $gutter/5;
-	padding: $gutter/5 0;
+  position: relative;
+  z-index: 999;
+  top: $gutter/5;
+  padding: $gutter/5 0;
 
-	font-weight: $font-weight-heavy;
-	font-size: 1.25em;
-	text-transform: lowercase;
+  font-weight: $font-weight-heavy;
+  font-size: 1.25em;
+  text-transform: lowercase;
 
-	ul {
-		margin: 0;
-		padding: 0;
-	}
-	li {
-		display: block;
-		margin: $gutter/2 ($gutter/7.5);
-		vertical-align: middle;
-		a {
-			text-decoration: none;
-			border-bottom: none;
-			padding: 0 10px;
-			border-radius: 20px;
-			display: inline-block;
-		}
-		a:hover,
-		&.current a {
-			box-shadow: 0 0 0 2px;
-		}
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    display: block;
+    margin: $gutter/2 ($gutter/7.5);
+    vertical-align: middle;
+    a {
+      text-decoration: none;
+      border-bottom: none;
+      padding: 0 10px;
+      border-radius: 20px;
+      display: inline-block;
+    }
+    a:hover,
+    &.current a {
+      box-shadow: 0 0 0 2px;
+    }
 
-		// &.woensdagmiddagclub{
-		// 	margin: $gutter/2 0;
-		// 	a {
-		// 		outline: none;
-		// 		&:hover{
-		// 			outline: none;
-		// 		}
-		// 	}
-		// 	svg, img {
-		// 		min-width: 50px;
-		// 		@media only screen and (min-width: $breakpoint-med) {
-		// 			transform: translate(3px, 5px);
-		// 			min-width: 70px;
-		// 		}
-		// 	}
-		// }
-	}
-	
+    // &.woensdagmiddagclub{
+    // 	margin: $gutter/2 0;
+    // 	a {
+    // 		outline: none;
+    // 		&:hover{
+    // 			outline: none;
+    // 		}
+    // 	}
+    // 	svg, img {
+    // 		min-width: 50px;
+    // 		@media only screen and (min-width: $breakpoint-med) {
+    // 			transform: translate(3px, 5px);
+    // 			min-width: 70px;
+    // 		}
+    // 	}
+    // }
+  }
 
-	@media only screen and (min-width: $breakpoint-med) {
-		li {
-			display: inline-block;
-		}
-	}
-	@media only screen and (min-width: $breakpoint-med) {
-		position: sticky;
-		text-align: right !important;
-		
-		li {
-			display: inline-block;
-		}
-	}
+  @media only screen and (min-width: $breakpoint-med) {
+    li {
+      display: inline-block;
+    }
+  }
+  @media only screen and (min-width: $breakpoint-med) {
+    position: sticky;
+    text-align: right !important;
 
-
-
-
+    li {
+      display: inline-block;
+    }
+  }
 }
