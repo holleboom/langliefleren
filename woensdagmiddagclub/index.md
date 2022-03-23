@@ -37,10 +37,6 @@ Wat ontstaat er wanneer je die eigenschappen wél met elkaar combineert?
 
 Een vast onderdeel van de Woensdagmiddagclub is het bereiden van een gezonde snack die we met elkaar eten en/of drinken. Dit kan een fruitsalade zijn, maar ook een lekkere warme soep of een frisse smoothie. Ook tijdens de Vakantieclub is er ruimte voor een pauzemoment met iets lekkers.
 
-### Bewegen
-
-Naast voorlezen, knutselen en koken, is er ook ruimte voor beweging. Dit doen we in de vorm van kinderyoga op muziek waarin de kinderen lekker mee kunnen dansen en zingen met de vrolijke liedjes van onder andere [Het Dansende Dierenbos](https://dansendedierenbos.nl/){:target="\_blank"}.
-
 ## Kosten en aanmelden
 
 Woensdagmiddagclub kost €15,00 per kind per keer.
@@ -52,5 +48,5 @@ De betaling verloopt via iDeal. Na betaling ontvang je een bevestiging van de in
 
 <a class="cp-button" data-seller="langliefleren" data-checkout="woensdagmiddagclub">Aanmelden</a>
 
-<small><em>Let op: De workshop kan alleen doorgaan bij een minimale deelname van 4 kinderen. Heb je al betaald en gaat de workshop niet door? Dan krijg je het geld teruggestort op je rekening. Wel aangemeld en kun je er toch niet bij zijn? Laat het Lang lief leren tijdig [weten](mailto:info@langliefleren.nl?subject=Afmelden){:target="\_blank"} zodat er plek is voor een ander kind.</em>
+<small><em>Let op: De workshop kan alleen doorgaan bij een minimale deelname van 4 kinderen. Heb je al betaald en gaat de workshop niet door? Dan krijg je het geld teruggestort op je rekening. Wel aangemeld en kun je er toch niet bij zijn? Laat het Lang lief leren tijdig [weten](mailto:info@langliefleren.nl?subject=Afmelden){:target="\_blank"} zodat er plek is voor een ander kind. Tot 48 uur voorafgaand aan de workshop kun je jouw kind kosteloos afmelden.</em>
 </small>

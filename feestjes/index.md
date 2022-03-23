@@ -17,12 +17,12 @@ Laat mij weten waar jouw jarige dol op is en ik bedenk er een passende creatieve
 
 Een kinderfeestje van Lang lief leren duurt zo’n twee uur. Tussendoor is er tijd om iets lekkers te eten en drinken. Een feestje kost €150 (maximaal 8 kinderen. Extra kind + €15).
 
-Inbegrepen bij het feestje zijn alle materialen, diksap en een feestelijk, versgebakken bananenbrood.
+Inbegrepen bij het feestje zijn alle materialen, diksap en een feestelijk, versgebakken bananenbrood (optioneel).
 
 De kinderen nemen na afloop hun creaties mee naar huis.
 
 Eventuele vervoerskosten: buiten een straal van 25 km van Rotterdam + €15.
 
-### Tot 100+
+### Ook voor volwassenen
 
 Organiseer je een vrijgezellenfeest, babyshower of ander feest? Ik denk graag met je mee over een creatieve invulling van het programma. Neem [contact](/contact) met mij op voor de mogelijkheden.
