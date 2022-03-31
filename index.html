@@ -63,7 +63,14 @@ color: rgb(252,247,123)
       'Dana (6): "We leerden ook, maar dat was wel leuk leren"',
       'Marjolijn: "In één woord geweldig. Het warme welkom, de fijne omgeving…"',
       'Fleur (8): "Dit was zó leuk!"',
+      'Rosalie: "Leonore was (weer) heel enthousiast!!!"',
+      'Janine: "Dankjewel voor de goede zorgen en de feestelijke middag. Nora vond het fantastisch!"',
     ];
+
+    let shuffledWordsArray = wordsArray
+      .map((value) => ({ value, sort: Math.random() }))
+      .sort((a, b) => a.sort - b.sort)
+      .map(({ value }) => value);
 
     $(".quoteContainer #quote").fadeOut(200, function () {
       $(this)
